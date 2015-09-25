@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		60EFE2D01BB4E24D0022C518 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EFE2CF1BB4E24D0022C518 /* main.m */; };
+		60EFE2D31BB4E24D0022C518 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EFE2D21BB4E24D0022C518 /* AppDelegate.m */; };
+		60EFE2D61BB4E24D0022C518 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EFE2D51BB4E24D0022C518 /* ViewController.m */; };
+		60EFE2D91BB4E24D0022C518 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60EFE2D71BB4E24D0022C518 /* Main.storyboard */; };
+		60EFE2DB1BB4E24D0022C518 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 60EFE2DA1BB4E24D0022C518 /* Assets.xcassets */; };
+		60EFE2DE1BB4E24D0022C518 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60EFE2DC1BB4E24D0022C518 /* LaunchScreen.storyboard */; };
+		60EFE2E91BB4E24D0022C518 /* NHNaviTransitionProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EFE2E81BB4E24D0022C518 /* NHNaviTransitionProTests.m */; };
+		60EFE2F41BB4E24D0022C518 /* NHNaviTransitionProUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EFE2F31BB4E24D0022C518 /* NHNaviTransitionProUITests.m */; };
+		60EFE3041BB4E3230022C518 /* NHDemo1VCR.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EFE3031BB4E3230022C518 /* NHDemo1VCR.m */; settings = {ASSET_TAGS = (); }; };
+		60EFE3071BB4E3340022C518 /* NHDemo2VCR.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EFE3061BB4E3340022C518 /* NHDemo2VCR.m */; settings = {ASSET_TAGS = (); }; };
+		60EFE30B1BB4F0BD0022C518 /* NHInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EFE30A1BB4F0BD0022C518 /* NHInteractiveTransition.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		60EFE2E51BB4E24D0022C518 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60EFE2C31BB4E24D0022C518 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60EFE2CA1BB4E24D0022C518;
+			remoteInfo = NHNaviTransitionPro;
+		};
+		60EFE2F01BB4E24D0022C518 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 60EFE2C31BB4E24D0022C518 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60EFE2CA1BB4E24D0022C518;
+			remoteInfo = NHNaviTransitionPro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		60EFE2CB1BB4E24D0022C518 /* NHNaviTransitionPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NHNaviTransitionPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		60EFE2CF1BB4E24D0022C518 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		60EFE2D11BB4E24D0022C518 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		60EFE2D21BB4E24D0022C518 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		60EFE2D41BB4E24D0022C518 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		60EFE2D51BB4E24D0022C518 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		60EFE2D81BB4E24D0022C518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		60EFE2DA1BB4E24D0022C518 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		60EFE2DD1BB4E24D0022C518 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		60EFE2DF1BB4E24D0022C518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60EFE2E41BB4E24D0022C518 /* NHNaviTransitionProTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NHNaviTransitionProTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60EFE2E81BB4E24D0022C518 /* NHNaviTransitionProTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHNaviTransitionProTests.m; sourceTree = "<group>"; };
+		60EFE2EA1BB4E24D0022C518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60EFE2EF1BB4E24D0022C518 /* NHNaviTransitionProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NHNaviTransitionProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		60EFE2F31BB4E24D0022C518 /* NHNaviTransitionProUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHNaviTransitionProUITests.m; sourceTree = "<group>"; };
+		60EFE2F51BB4E24D0022C518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60EFE3021BB4E3230022C518 /* NHDemo1VCR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHDemo1VCR.h; sourceTree = "<group>"; };
+		60EFE3031BB4E3230022C518 /* NHDemo1VCR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHDemo1VCR.m; sourceTree = "<group>"; };
+		60EFE3051BB4E3340022C518 /* NHDemo2VCR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHDemo2VCR.h; sourceTree = "<group>"; };
+		60EFE3061BB4E3340022C518 /* NHDemo2VCR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHDemo2VCR.m; sourceTree = "<group>"; };
+		60EFE3091BB4F0BD0022C518 /* NHInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHInteractiveTransition.h; sourceTree = "<group>"; };
+		60EFE30A1BB4F0BD0022C518 /* NHInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHInteractiveTransition.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		60EFE2C81BB4E24D0022C518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60EFE2E11BB4E24D0022C518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60EFE2EC1BB4E24D0022C518 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60EFE2C21BB4E24D0022C518 = {
+			isa = PBXGroup;
+			children = (
+				60EFE2CD1BB4E24D0022C518 /* NHNaviTransitionPro */,
+				60EFE2E71BB4E24D0022C518 /* NHNaviTransitionProTests */,
+				60EFE2F21BB4E24D0022C518 /* NHNaviTransitionProUITests */,
+				60EFE2CC1BB4E24D0022C518 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		60EFE2CC1BB4E24D0022C518 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				60EFE2CB1BB4E24D0022C518 /* NHNaviTransitionPro.app */,
+				60EFE2E41BB4E24D0022C518 /* NHNaviTransitionProTests.xctest */,
+				60EFE2EF1BB4E24D0022C518 /* NHNaviTransitionProUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		60EFE2CD1BB4E24D0022C518 /* NHNaviTransitionPro */ = {
+			isa = PBXGroup;
+			children = (
+				60EFE3081BB4E74D0022C518 /* Animations */,
+				60EFE3011BB4E3130022C518 /* classes */,
+				60EFE2D11BB4E24D0022C518 /* AppDelegate.h */,
+				60EFE2D21BB4E24D0022C518 /* AppDelegate.m */,
+				60EFE2D41BB4E24D0022C518 /* ViewController.h */,
+				60EFE2D51BB4E24D0022C518 /* ViewController.m */,
+				60EFE2D71BB4E24D0022C518 /* Main.storyboard */,
+				60EFE2DA1BB4E24D0022C518 /* Assets.xcassets */,
+				60EFE2DC1BB4E24D0022C518 /* LaunchScreen.storyboard */,
+				60EFE2DF1BB4E24D0022C518 /* Info.plist */,
+				60EFE2CE1BB4E24D0022C518 /* Supporting Files */,
+			);
+			path = NHNaviTransitionPro;
+			sourceTree = "<group>";
+		};
+		60EFE2CE1BB4E24D0022C518 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				60EFE2CF1BB4E24D0022C518 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		60EFE2E71BB4E24D0022C518 /* NHNaviTransitionProTests */ = {
+			isa = PBXGroup;
+			children = (
+				60EFE2E81BB4E24D0022C518 /* NHNaviTransitionProTests.m */,
+				60EFE2EA1BB4E24D0022C518 /* Info.plist */,
+			);
+			path = NHNaviTransitionProTests;
+			sourceTree = "<group>";
+		};
+		60EFE2F21BB4E24D0022C518 /* NHNaviTransitionProUITests */ = {
+			isa = PBXGroup;
+			children = (
+				60EFE2F31BB4E24D0022C518 /* NHNaviTransitionProUITests.m */,
+				60EFE2F51BB4E24D0022C518 /* Info.plist */,
+			);
+			path = NHNaviTransitionProUITests;
+			sourceTree = "<group>";
+		};
+		60EFE3011BB4E3130022C518 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				60EFE3021BB4E3230022C518 /* NHDemo1VCR.h */,
+				60EFE3031BB4E3230022C518 /* NHDemo1VCR.m */,
+				60EFE3051BB4E3340022C518 /* NHDemo2VCR.h */,
+				60EFE3061BB4E3340022C518 /* NHDemo2VCR.m */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		60EFE3081BB4E74D0022C518 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				60EFE3091BB4F0BD0022C518 /* NHInteractiveTransition.h */,
+				60EFE30A1BB4F0BD0022C518 /* NHInteractiveTransition.m */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		60EFE2CA1BB4E24D0022C518 /* NHNaviTransitionPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60EFE2F81BB4E24D0022C518 /* Build configuration list for PBXNativeTarget "NHNaviTransitionPro" */;
+			buildPhases = (
+				60EFE2C71BB4E24D0022C518 /* Sources */,
+				60EFE2C81BB4E24D0022C518 /* Frameworks */,
+				60EFE2C91BB4E24D0022C518 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NHNaviTransitionPro;
+			productName = NHNaviTransitionPro;
+			productReference = 60EFE2CB1BB4E24D0022C518 /* NHNaviTransitionPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		60EFE2E31BB4E24D0022C518 /* NHNaviTransitionProTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60EFE2FB1BB4E24D0022C518 /* Build configuration list for PBXNativeTarget "NHNaviTransitionProTests" */;
+			buildPhases = (
+				60EFE2E01BB4E24D0022C518 /* Sources */,
+				60EFE2E11BB4E24D0022C518 /* Frameworks */,
+				60EFE2E21BB4E24D0022C518 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60EFE2E61BB4E24D0022C518 /* PBXTargetDependency */,
+			);
+			name = NHNaviTransitionProTests;
+			productName = NHNaviTransitionProTests;
+			productReference = 60EFE2E41BB4E24D0022C518 /* NHNaviTransitionProTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		60EFE2EE1BB4E24D0022C518 /* NHNaviTransitionProUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60EFE2FE1BB4E24D0022C518 /* Build configuration list for PBXNativeTarget "NHNaviTransitionProUITests" */;
+			buildPhases = (
+				60EFE2EB1BB4E24D0022C518 /* Sources */,
+				60EFE2EC1BB4E24D0022C518 /* Frameworks */,
+				60EFE2ED1BB4E24D0022C518 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				60EFE2F11BB4E24D0022C518 /* PBXTargetDependency */,
+			);
+			name = NHNaviTransitionProUITests;
+			productName = NHNaviTransitionProUITests;
+			productReference = 60EFE2EF1BB4E24D0022C518 /* NHNaviTransitionProUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		60EFE2C31BB4E24D0022C518 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "hu jiaju";
+				TargetAttributes = {
+					60EFE2CA1BB4E24D0022C518 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+					60EFE2E31BB4E24D0022C518 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 60EFE2CA1BB4E24D0022C518;
+					};
+					60EFE2EE1BB4E24D0022C518 = {
+						CreatedOnToolsVersion = 7.0;
+						TestTargetID = 60EFE2CA1BB4E24D0022C518;
+					};
+				};
+			};
+			buildConfigurationList = 60EFE2C61BB4E24D0022C518 /* Build configuration list for PBXProject "NHNaviTransitionPro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 60EFE2C21BB4E24D0022C518;
+			productRefGroup = 60EFE2CC1BB4E24D0022C518 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60EFE2CA1BB4E24D0022C518 /* NHNaviTransitionPro */,
+				60EFE2E31BB4E24D0022C518 /* NHNaviTransitionProTests */,
+				60EFE2EE1BB4E24D0022C518 /* NHNaviTransitionProUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		60EFE2C91BB4E24D0022C518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60EFE2DE1BB4E24D0022C518 /* LaunchScreen.storyboard in Resources */,
+				60EFE2DB1BB4E24D0022C518 /* Assets.xcassets in Resources */,
+				60EFE2D91BB4E24D0022C518 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60EFE2E21BB4E24D0022C518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60EFE2ED1BB4E24D0022C518 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		60EFE2C71BB4E24D0022C518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60EFE2D61BB4E24D0022C518 /* ViewController.m in Sources */,
+				60EFE2D31BB4E24D0022C518 /* AppDelegate.m in Sources */,
+				60EFE3041BB4E3230022C518 /* NHDemo1VCR.m in Sources */,
+				60EFE3071BB4E3340022C518 /* NHDemo2VCR.m in Sources */,
+				60EFE2D01BB4E24D0022C518 /* main.m in Sources */,
+				60EFE30B1BB4F0BD0022C518 /* NHInteractiveTransition.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60EFE2E01BB4E24D0022C518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60EFE2E91BB4E24D0022C518 /* NHNaviTransitionProTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		60EFE2EB1BB4E24D0022C518 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60EFE2F41BB4E24D0022C518 /* NHNaviTransitionProUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60EFE2E61BB4E24D0022C518 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60EFE2CA1BB4E24D0022C518 /* NHNaviTransitionPro */;
+			targetProxy = 60EFE2E51BB4E24D0022C518 /* PBXContainerItemProxy */;
+		};
+		60EFE2F11BB4E24D0022C518 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 60EFE2CA1BB4E24D0022C518 /* NHNaviTransitionPro */;
+			targetProxy = 60EFE2F01BB4E24D0022C518 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		60EFE2D71BB4E24D0022C518 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60EFE2D81BB4E24D0022C518 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		60EFE2DC1BB4E24D0022C518 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				60EFE2DD1BB4E24D0022C518 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		60EFE2F61BB4E24D0022C518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		60EFE2F71BB4E24D0022C518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		60EFE2F91BB4E24D0022C518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NHNaviTransitionPro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PullBear.NHNaviTransitionPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		60EFE2FA1BB4E24D0022C518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = NHNaviTransitionPro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PullBear.NHNaviTransitionPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		60EFE2FC1BB4E24D0022C518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NHNaviTransitionProTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PullBear.NHNaviTransitionProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NHNaviTransitionPro.app/NHNaviTransitionPro";
+			};
+			name = Debug;
+		};
+		60EFE2FD1BB4E24D0022C518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = NHNaviTransitionProTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PullBear.NHNaviTransitionProTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NHNaviTransitionPro.app/NHNaviTransitionPro";
+			};
+			name = Release;
+		};
+		60EFE2FF1BB4E24D0022C518 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NHNaviTransitionProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PullBear.NHNaviTransitionProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NHNaviTransitionPro;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		60EFE3001BB4E24D0022C518 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = NHNaviTransitionProUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PullBear.NHNaviTransitionProUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = NHNaviTransitionPro;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		60EFE2C61BB4E24D0022C518 /* Build configuration list for PBXProject "NHNaviTransitionPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60EFE2F61BB4E24D0022C518 /* Debug */,
+				60EFE2F71BB4E24D0022C518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60EFE2F81BB4E24D0022C518 /* Build configuration list for PBXNativeTarget "NHNaviTransitionPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60EFE2F91BB4E24D0022C518 /* Debug */,
+				60EFE2FA1BB4E24D0022C518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		60EFE2FB1BB4E24D0022C518 /* Build configuration list for PBXNativeTarget "NHNaviTransitionProTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60EFE2FC1BB4E24D0022C518 /* Debug */,
+				60EFE2FD1BB4E24D0022C518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		60EFE2FE1BB4E24D0022C518 /* Build configuration list for PBXNativeTarget "NHNaviTransitionProUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60EFE2FF1BB4E24D0022C518 /* Debug */,
+				60EFE3001BB4E24D0022C518 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 60EFE2C31BB4E24D0022C518 /* Project object */;
+}
