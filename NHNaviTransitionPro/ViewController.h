@@ -6,10 +6,9 @@
 //  Copyright © 2015年 hu jiaju. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "NHBaseVCR.h"
 
-@interface ViewController : UIViewController
-
+@interface ViewController : NHBaseVCR
 
 @end
 

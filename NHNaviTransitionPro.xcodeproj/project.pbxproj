@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		60ECF1861C9A571300D6CA38 /* NHBaseVCR.m in Sources */ = {isa = PBXBuildFile; fileRef = 60ECF1811C9A571300D6CA38 /* NHBaseVCR.m */; };
+		60ECF1871C9A571300D6CA38 /* NHTVTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 60ECF1851C9A571300D6CA38 /* NHTVTransitionAnimator.m */; };
+		60ECF18A1C9A574E00D6CA38 /* NHCurveTransitionAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 60ECF1891C9A574E00D6CA38 /* NHCurveTransitionAnimator.m */; };
+		60ECF18E1C9A5B1C00D6CA38 /* NHTVCloseVCR.m in Sources */ = {isa = PBXBuildFile; fileRef = 60ECF18D1C9A5B1C00D6CA38 /* NHTVCloseVCR.m */; };
+		60ECF1911C9A5BA700D6CA38 /* NHCurveShowVCR.m in Sources */ = {isa = PBXBuildFile; fileRef = 60ECF1901C9A5BA700D6CA38 /* NHCurveShowVCR.m */; };
+		60ECF1941C9A627D00D6CA38 /* NHNoneTransitionVCR.m in Sources */ = {isa = PBXBuildFile; fileRef = 60ECF1931C9A627D00D6CA38 /* NHNoneTransitionVCR.m */; };
 		60EFE2D01BB4E24D0022C518 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EFE2CF1BB4E24D0022C518 /* main.m */; };
 		60EFE2D31BB4E24D0022C518 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EFE2D21BB4E24D0022C518 /* AppDelegate.m */; };
 		60EFE2D61BB4E24D0022C518 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EFE2D51BB4E24D0022C518 /* ViewController.m */; };
@@ -15,9 +21,7 @@
 		60EFE2DE1BB4E24D0022C518 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60EFE2DC1BB4E24D0022C518 /* LaunchScreen.storyboard */; };
 		60EFE2E91BB4E24D0022C518 /* NHNaviTransitionProTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EFE2E81BB4E24D0022C518 /* NHNaviTransitionProTests.m */; };
 		60EFE2F41BB4E24D0022C518 /* NHNaviTransitionProUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EFE2F31BB4E24D0022C518 /* NHNaviTransitionProUITests.m */; };
-		60EFE3041BB4E3230022C518 /* NHDemo1VCR.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EFE3031BB4E3230022C518 /* NHDemo1VCR.m */; settings = {ASSET_TAGS = (); }; };
-		60EFE3071BB4E3340022C518 /* NHDemo2VCR.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EFE3061BB4E3340022C518 /* NHDemo2VCR.m */; settings = {ASSET_TAGS = (); }; };
-		60EFE30B1BB4F0BD0022C518 /* NHInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EFE30A1BB4F0BD0022C518 /* NHInteractiveTransition.m */; settings = {ASSET_TAGS = (); }; };
+		60EFE30B1BB4F0BD0022C518 /* NHInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 60EFE30A1BB4F0BD0022C518 /* NHInteractiveTransition.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		60ECF1801C9A571300D6CA38 /* NHBaseVCR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHBaseVCR.h; sourceTree = "<group>"; };
+		60ECF1811C9A571300D6CA38 /* NHBaseVCR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHBaseVCR.m; sourceTree = "<group>"; };
+		60ECF1841C9A571300D6CA38 /* NHTVTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHTVTransitionAnimator.h; sourceTree = "<group>"; };
+		60ECF1851C9A571300D6CA38 /* NHTVTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHTVTransitionAnimator.m; sourceTree = "<group>"; };
+		60ECF1881C9A574E00D6CA38 /* NHCurveTransitionAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHCurveTransitionAnimator.h; sourceTree = "<group>"; };
+		60ECF1891C9A574E00D6CA38 /* NHCurveTransitionAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHCurveTransitionAnimator.m; sourceTree = "<group>"; };
+		60ECF18B1C9A576B00D6CA38 /* NHTransitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHTransitions.h; sourceTree = "<group>"; };
+		60ECF18C1C9A5B1C00D6CA38 /* NHTVCloseVCR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHTVCloseVCR.h; sourceTree = "<group>"; };
+		60ECF18D1C9A5B1C00D6CA38 /* NHTVCloseVCR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHTVCloseVCR.m; sourceTree = "<group>"; };
+		60ECF18F1C9A5BA700D6CA38 /* NHCurveShowVCR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHCurveShowVCR.h; sourceTree = "<group>"; };
+		60ECF1901C9A5BA700D6CA38 /* NHCurveShowVCR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHCurveShowVCR.m; sourceTree = "<group>"; };
+		60ECF1921C9A627D00D6CA38 /* NHNoneTransitionVCR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NHNoneTransitionVCR.h; path = ../NHTransitions/NHNoneTransitionVCR.h; sourceTree = "<group>"; };
+		60ECF1931C9A627D00D6CA38 /* NHNoneTransitionVCR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NHNoneTransitionVCR.m; path = ../NHTransitions/NHNoneTransitionVCR.m; sourceTree = "<group>"; };
 		60EFE2CB1BB4E24D0022C518 /* NHNaviTransitionPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NHNaviTransitionPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60EFE2CF1BB4E24D0022C518 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		60EFE2D11BB4E24D0022C518 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,10 +71,6 @@
 		60EFE2EF1BB4E24D0022C518 /* NHNaviTransitionProUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NHNaviTransitionProUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		60EFE2F31BB4E24D0022C518 /* NHNaviTransitionProUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NHNaviTransitionProUITests.m; sourceTree = "<group>"; };
 		60EFE2F51BB4E24D0022C518 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		60EFE3021BB4E3230022C518 /* NHDemo1VCR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHDemo1VCR.h; sourceTree = "<group>"; };
-		60EFE3031BB4E3230022C518 /* NHDemo1VCR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHDemo1VCR.m; sourceTree = "<group>"; };
-		60EFE3051BB4E3340022C518 /* NHDemo2VCR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHDemo2VCR.h; sourceTree = "<group>"; };
-		60EFE3061BB4E3340022C518 /* NHDemo2VCR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHDemo2VCR.m; sourceTree = "<group>"; };
 		60EFE3091BB4F0BD0022C518 /* NHInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NHInteractiveTransition.h; sourceTree = "<group>"; };
 		60EFE30A1BB4F0BD0022C518 /* NHInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NHInteractiveTransition.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -87,6 +100,50 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		60ECF17B1C9A566900D6CA38 /* NHBase */ = {
+			isa = PBXGroup;
+			children = (
+				60ECF17F1C9A571300D6CA38 /* Bases */,
+				60ECF1831C9A571300D6CA38 /* NHTransitions */,
+				60ECF1821C9A571300D6CA38 /* examples */,
+			);
+			path = NHBase;
+			sourceTree = "<group>";
+		};
+		60ECF17F1C9A571300D6CA38 /* Bases */ = {
+			isa = PBXGroup;
+			children = (
+				60ECF1801C9A571300D6CA38 /* NHBaseVCR.h */,
+				60ECF1811C9A571300D6CA38 /* NHBaseVCR.m */,
+			);
+			path = Bases;
+			sourceTree = "<group>";
+		};
+		60ECF1821C9A571300D6CA38 /* examples */ = {
+			isa = PBXGroup;
+			children = (
+				60ECF18C1C9A5B1C00D6CA38 /* NHTVCloseVCR.h */,
+				60ECF18D1C9A5B1C00D6CA38 /* NHTVCloseVCR.m */,
+				60ECF18F1C9A5BA700D6CA38 /* NHCurveShowVCR.h */,
+				60ECF1901C9A5BA700D6CA38 /* NHCurveShowVCR.m */,
+				60ECF1921C9A627D00D6CA38 /* NHNoneTransitionVCR.h */,
+				60ECF1931C9A627D00D6CA38 /* NHNoneTransitionVCR.m */,
+			);
+			path = examples;
+			sourceTree = "<group>";
+		};
+		60ECF1831C9A571300D6CA38 /* NHTransitions */ = {
+			isa = PBXGroup;
+			children = (
+				60ECF18B1C9A576B00D6CA38 /* NHTransitions.h */,
+				60ECF1841C9A571300D6CA38 /* NHTVTransitionAnimator.h */,
+				60ECF1851C9A571300D6CA38 /* NHTVTransitionAnimator.m */,
+				60ECF1881C9A574E00D6CA38 /* NHCurveTransitionAnimator.h */,
+				60ECF1891C9A574E00D6CA38 /* NHCurveTransitionAnimator.m */,
+			);
+			path = NHTransitions;
+			sourceTree = "<group>";
+		};
 		60EFE2C21BB4E24D0022C518 = {
 			isa = PBXGroup;
 			children = (
@@ -110,8 +167,8 @@
 		60EFE2CD1BB4E24D0022C518 /* NHNaviTransitionPro */ = {
 			isa = PBXGroup;
 			children = (
+				60ECF17B1C9A566900D6CA38 /* NHBase */,
 				60EFE3081BB4E74D0022C518 /* Animations */,
-				60EFE3011BB4E3130022C518 /* classes */,
 				60EFE2D11BB4E24D0022C518 /* AppDelegate.h */,
 				60EFE2D21BB4E24D0022C518 /* AppDelegate.m */,
 				60EFE2D41BB4E24D0022C518 /* ViewController.h */,
@@ -149,17 +206,6 @@
 				60EFE2F51BB4E24D0022C518 /* Info.plist */,
 			);
 			path = NHNaviTransitionProUITests;
-			sourceTree = "<group>";
-		};
-		60EFE3011BB4E3130022C518 /* classes */ = {
-			isa = PBXGroup;
-			children = (
-				60EFE3021BB4E3230022C518 /* NHDemo1VCR.h */,
-				60EFE3031BB4E3230022C518 /* NHDemo1VCR.m */,
-				60EFE3051BB4E3340022C518 /* NHDemo2VCR.h */,
-				60EFE3061BB4E3340022C518 /* NHDemo2VCR.m */,
-			);
-			path = classes;
 			sourceTree = "<group>";
 		};
 		60EFE3081BB4E74D0022C518 /* Animations */ = {
@@ -301,10 +347,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60ECF1941C9A627D00D6CA38 /* NHNoneTransitionVCR.m in Sources */,
 				60EFE2D61BB4E24D0022C518 /* ViewController.m in Sources */,
+				60ECF1911C9A5BA700D6CA38 /* NHCurveShowVCR.m in Sources */,
+				60ECF1871C9A571300D6CA38 /* NHTVTransitionAnimator.m in Sources */,
 				60EFE2D31BB4E24D0022C518 /* AppDelegate.m in Sources */,
-				60EFE3041BB4E3230022C518 /* NHDemo1VCR.m in Sources */,
-				60EFE3071BB4E3340022C518 /* NHDemo2VCR.m in Sources */,
+				60ECF18E1C9A5B1C00D6CA38 /* NHTVCloseVCR.m in Sources */,
+				60ECF1861C9A571300D6CA38 /* NHBaseVCR.m in Sources */,
+				60ECF18A1C9A574E00D6CA38 /* NHCurveTransitionAnimator.m in Sources */,
 				60EFE2D01BB4E24D0022C518 /* main.m in Sources */,
 				60EFE30B1BB4F0BD0022C518 /* NHInteractiveTransition.m in Sources */,
 			);
@@ -534,6 +584,7 @@
 				60EFE2FA1BB4E24D0022C518 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60EFE2FB1BB4E24D0022C518 /* Build configuration list for PBXNativeTarget "NHNaviTransitionProTests" */ = {
 			isa = XCConfigurationList;
@@ -542,6 +593,7 @@
 				60EFE2FD1BB4E24D0022C518 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		60EFE2FE1BB4E24D0022C518 /* Build configuration list for PBXNativeTarget "NHNaviTransitionProUITests" */ = {
 			isa = XCConfigurationList;
@@ -550,6 +602,7 @@
 				60EFE3001BB4E24D0022C518 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

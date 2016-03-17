@@ -7,10 +7,15 @@
 //
 
 #import "ViewController.h"
-#import "NHDemo1VCR.h"
-#import "NHDemo2VCR.h"
+#import "NHTVCloseVCR.h"
+#import "NHCurveShowVCR.h"
+#import "NHNoneTransitionVCR.h"
+#import "NHInteractiveTransition.h"
 
-@interface ViewController ()
+@interface ViewController ()<UITableViewDataSource,UITableViewDelegate>
+
+@property (nullable, nonatomic, strong) UITableView *tableView;
+@property (nonatomic, strong) NHInteractiveTransition *animateManager;
 
 @end
 
@@ -22,35 +27,90 @@
     
     self.title = @"导航转场";
     
-    CGRect infoRect = CGRectMake(100, 100, 100, 50);
-    UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-    btn.frame = infoRect;
-    btn.exclusiveTouch = true;
-    [btn setTitle:@"demo1" forState:UIControlStateNormal];
-    [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-    [btn addTarget:self action:@selector(demo1Event) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:btn];
+    CGRect infoRect = self.view.bounds;
+    _tableView = [[UITableView alloc] initWithFrame:infoRect style:UITableViewStylePlain];
+    _tableView.dataSource = self;
+    _tableView.delegate = self;
+    [self.view addSubview:_tableView];
     
-    infoRect.origin.y += 60;
-    btn = [UIButton buttonWithType:UIButtonTypeCustom];
-    btn.frame = infoRect;
-    btn.exclusiveTouch = true;
-    [btn setTitle:@"demo2" forState:UIControlStateNormal];
-    [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-    [btn addTarget:self action:@selector(demo2Event) forControlEvents:UIControlEventTouchUpInside];
-    [self.view addSubview:btn];
+    _animateManager = [[NHInteractiveTransition alloc] init];
 }
 
-- (void)demo1Event {
-    
-    NHDemo1VCR *demo1 = [[NHDemo1VCR alloc] init];
-    [self.navigationController pushViewController:demo1 animated:true];
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    self.pushType = NHPushTypeNone;
 }
 
-- (void)demo2Event {
+#pragma mark == tableView delegate ==
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 5;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath {
+    return 50;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    static NSString *identifier = @"cell";
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:identifier];
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:identifier];
+        cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
+    }
     
-    NHDemo2VCR *demo2 = [[NHDemo2VCR alloc] init];
-    [self.navigationController pushViewController:demo2 animated:true];
+    NSString *title;
+    if (indexPath.row == 0) {
+        title = @"TV Close Pop Transition";
+    }else if (indexPath.row == 1){
+        title = @"Curve Show Push Transition";
+    }else if (indexPath.row == 2){
+        title = @"Curve Show/TV Close Transition";
+    }else if (indexPath.row == 3){
+        title = @"Curve Show/Close Transition";
+    }else if (indexPath.row == 4){
+        title = @"None Transition";
+    }
+    
+    cell.textLabel.text = title;
+    
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+    NSInteger index = [indexPath row];
+    UIViewController *destVCR;
+    if (index == 0) {
+        NHTVCloseVCR *tvClose = [[NHTVCloseVCR alloc] init];
+        tvClose.popType = NHPopTypeTV;
+        destVCR = tvClose;
+    }else if (index == 1){
+        NHCurveShowVCR *curveShow = [[NHCurveShowVCR alloc] init];
+        self.triggerObject = [tableView cellForRowAtIndexPath:indexPath];
+        self.pushType = NHPushTypeCurve;
+        destVCR = curveShow;
+    }else if (index == 2){
+        NHCurveShowVCR *curveShow = [[NHCurveShowVCR alloc] init];
+        curveShow.popType = NHPopTypeTV;
+        self.pushType = NHPushTypeCurve;
+        destVCR = curveShow;
+    }else if (index == 3){
+        NHCurveShowVCR *curveShow = [[NHCurveShowVCR alloc] init];
+        curveShow.popType = NHPopTypeCurve;
+        self.pushType = NHPushTypeCurve;
+        destVCR = curveShow;
+        //[_animateManager wireToViewController:curveShow];
+    }else if (index == 4){
+        NHNoneTransitionVCR *nonVCR = [[NHNoneTransitionVCR alloc] init];
+        destVCR = nonVCR;
+    }
+    
+    [self.navigationController pushViewController:destVCR animated:true];
+    [tableView deselectRowAtIndexPath:indexPath animated:true];
 }
 
 - (void)didReceiveMemoryWarning {
